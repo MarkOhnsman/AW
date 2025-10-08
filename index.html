@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atlas Worlds - Your world on our shoulders</title>
+    <meta
+      name="description"
+      content="Atlas Worlds is being rebuilt from the ground up. A new foundation for worldbuilders, storytellers, and dreamers."
+    />
+
+    <!-- PicoCSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+    />
+
+    <!-- Fonts - Adding serif font for the title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="splash-container">
+      <main class="splash-content">
+        <!-- Main Title -->
+        <header class="splash-header">
+          <h1 class="atlas-title">ATLAS WORLDS</h1>
+          <p class="tagline">Your world on our shoulders</p>
+        </header>
+
+        <!-- Central Globe Graphic -->
+        <div class="globe-container">
+          <img src="d20.webp" alt="Atlas Worlds Globe" class="globe-image" />
+          <!-- Fallback placeholder -->
+          <div class="globe-placeholder">
+            <div class="placeholder-globe">
+              <div class="orbit-line orbit-1"></div>
+              <div class="orbit-line orbit-2"></div>
+              <div class="placeholder-content">
+                <div class="globe-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Body Text -->
+        <section class="splash-text">
+          <p class="main-text">
+            Atlas Worlds is being rebuilt from the ground up.<br />
+            A new foundation for worldbuilders, storytellers, and dreamers.
+          </p>
+          <p class="coming-soon">Coming soon.</p>
+        </section>
+
+        <!-- Optional Email Signup -->
+        <section class="email-section">
+          <div class="email-signup">
+            <input
+              type="email"
+              class="email-input"
+              placeholder="Enter your email for updates"
+              id="email"
+            />
+            <button class="notify-button" onclick="signUp()">Notify Me</button>
+          </div>
+        </section>
+      </main>
+
+      <!-- Minimal Footer -->
+      <footer class="splash-footer">
+        <div class="footer-links">
+          <a
+            href="https://www.kickstarter.com/projects/markohnsman/atlas-worlds-build-your-worlds-on-our-shoulders"
+            target="_blank"
+            >Kickstarter</a
+          >
+          <a href="mailto:hello@atlasworlds.com">Contact</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
